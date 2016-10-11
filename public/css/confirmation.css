@@ -1,0 +1,144 @@
+html, body {
+  overflow: auto;
+}
+
+.value {
+	font-weight: normal;
+}
+
+.name {
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+.content-container {
+	margin-top: 30px;
+}
+
+.confirmation-text {
+	margin-bottom: 50px;	
+	padding: 10px;
+	border: 2px solid #90C5CF;	
+}
+
+.signup-info {
+  background: rgba(194,238,124, .2);	
+  border-radius: 5px;
+}
+
+.line-wrapper {
+	padding-right: 50px;
+	margin: 10px 0 0 0;
+}
+
+.line {
+	border-top: 1px solid black;	
+}
+
+.panel h3 {
+	margin-top: 7px;
+}
+
+.charge-discount {
+	color: darkred;
+}
+
+.payment-success {
+	display: none;
+}
+
+.display-table {
+	width:100%;
+}
+
+.panel-heading .row {
+  padding: 0 20px 0 20px; 
+}
+
+.payment-image-wrapper { 
+  height: 80px;
+  display: inline-block;
+  width: 80px;
+  overflow: hidden;
+  /*background: rgba(91,158,170, .2);*/
+  background: white;
+  border: 2px solid black;
+  border-radius: 20%;
+  padding: 3px;
+}
+.payment-image {  
+  height: 67px;  
+}
+
+.payment-header {
+  width: 100%;
+  font-weight: bold;
+}
+
+/*.payment-section {
+	border: 2px solid #90C5CF;	
+	padding: 10px;	
+}*/
+
+/*bootsnip*/
+
+/* CSS for Credit Card Payment form */
+.credit-card-box .panel-title {
+    display: inline;
+    font-weight: bold;
+}
+.credit-card-box .form-control.error {
+    border-color: red;
+    outline: 0;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,0.075),0 0 8px rgba(255,0,0,0.6);
+}
+.credit-card-box label.error {
+  font-weight: bold;
+  color: red;
+  padding: 2px 8px;
+  margin-top: 2px;
+}
+.credit-card-box .payment-errors {
+  font-weight: bold;
+  color: red;
+  padding: 2px 8px;
+  margin-top: 2px;
+}
+.credit-card-box label {
+    display: block;
+}
+/* The old "center div vertically" hack */
+.credit-card-box .display-table {
+    display: table;
+}
+.credit-card-box .display-tr {
+    display: table-row;
+}
+.credit-card-box .display-td {
+    display: table-cell;
+    vertical-align: middle;
+    width: 50%;
+}
+/* Just looks nicer */
+.credit-card-box .panel-heading .card-imgs {
+    min-width: 180px;
+}
+
+.stripe-logo-link {
+  display: inline-block;
+  margin-top: 10px
+}
+
+.content-container {
+  padding-bottom: 60px;
+}
+
+@media (max-device-width: 480px) {  
+  .signup-info {
+    margin-bottom: 60px;
+  }
+
+  .subscribe {
+    font-size: 40px;
+  }
+}

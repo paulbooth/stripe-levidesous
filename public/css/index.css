@@ -1,0 +1,487 @@
+/*color pallete http://paletton.com/#uid=3040u0kjQtna0Lmfm-onZq9rkl5*/
+
+#content {	
+	position: relative;	
+}
+
+.section {
+	/*visibility: hidden;*/
+	position: relative;
+}
+
+.quarter-container {
+	margin-top: 40px;
+	/*position: relative;
+	top: 25%;
+  	transform: translateY(-25%);	*/
+}
+
+.centered-container {
+	position: relative;
+	top: 50%;
+  	transform: translateY(-50%);	
+}
+
+.intro {
+	padding: 100px 0 100px 0;
+	position: relative;
+	height: 400px;
+	overflow: hidden;
+}
+
+.intro-container {
+	background: #EDF9FB;  
+  	/*padding: 10px 0px 10px 0px;*/
+  	margin-bottom: 20px;
+  	/*border: 10px solid #EA6759;*/
+  	border-bottom: 5px solid #FF9185;
+  	border-top: 5px solid #FF9185;  	
+}
+
+.intro-text {
+	position: relative;
+	z-index: 200;
+	color: #404040;
+	/*height: 100%;*/	
+	font-family: "Josefin Sans";
+}
+
+.intro-line-1 {	
+	font-weight: 900;	
+	font-size: 45px;
+	margin-top: 0px;	
+	/*position: absolute;	*/
+	top: 0px;
+	/*width: 100%;*/
+	padding-top: 10px;
+}
+
+.intro-line-2 {
+	font-weight: 900;
+	font-size: 60px;
+}
+
+.intro-line-3 {
+	font-weight: 900;
+	font-size: 30px;
+	/*position: absolute;	*/
+	 bottom: 0px;	
+	 /*width: 100%;*/
+	 padding-bottom: 10px;
+	 margin-bottom: 0px;
+}
+
+.recap {
+	margin-top: 20px;
+	border: 3px solid #404040;
+	border-radius: 5px;
+	padding: 10px;
+	display: inline-block;
+	background: #C2EE7C;
+}
+
+.recap-intro {
+	font-weight: 900;
+	font-size: 26px;
+	/*position: absolute;	*/
+	 bottom: 0px;	
+	 /*width: 100%;*/	 
+	 padding-bottom: 0px;
+	 margin-bottom: 0px;
+}
+
+.recap-link {
+	background: transparent;
+	/*color: #404040;*/
+	/*border: 2px solid #404040;	*/
+	font-weight: bold;
+	font-size: 24px;
+	margin: 0 20px 0 20px;		
+	padding: 5px;	
+}
+
+.recap-link:hover {
+	/*color: black;*/
+}
+
+.banner-img {	
+	width: 100%;	
+	z-index: 0;
+	display: inline;
+	position: absolute;
+	top: 0px;
+}
+
+.banner-img-overlay {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	z-index: 100;
+	background: rgba(237, 249, 251, .75);
+	top: 0px;
+}
+
+.intro .enroll {
+	text-align: center;
+	position: relative;
+	z-index: 10000;
+	font-family: "Open Sans";
+}
+
+.intro .enroll-link {
+	background: transparent;
+	color: #404040;
+	border: 2px solid black;
+	font-weight: bold
+}
+
+.intro .enroll-link:hover {
+	color: black;
+}
+
+/*.enroll .enroll-link {
+	background: #EA6759;	
+}*/
+
+.explanation-section {
+	margin-top: 60px;
+}
+
+.email-group {
+	margin-top: auto;
+}
+
+.info-banner {
+	background: #C2EE7C;
+	padding: 15px;
+}
+
+.info-session-sign-up-span {
+	background: #C2EE7C;
+	display: inline-block;
+	padding: 15px;
+}
+
+.info-session-sign-up-span h3 {
+	margin-top: 0px;
+}
+
+.last-info-session-text {
+	margin-bottom: 20px;
+}
+
+.info-session-success {
+	font-weight: bold;
+	display: none;
+}
+
+form.info-session-signup {
+	margin-bottom: 0px;
+}
+
+form .row.info-session-signup-input {
+	margin-bottom: 0px;
+	display: flex;
+}
+
+.radio-options {
+	text-align: left;
+}
+
+.radio-options-wrapper {
+	display: inline-block;
+}
+
+.info-session-title {
+	margin-bottom: 8px;
+}
+
+.overview-wrapper {	
+	text-align: center;
+}
+
+.program-overview {
+	margin-bottom: 60px
+}
+
+.overview-title {
+	color: #EC4B75;
+}
+
+.problem-intro-row {		
+	margin-top: 20px;	
+}
+
+.problem-intro-span {
+	background: #5B9EAA;
+	padding: 10px; 
+	color:white;	
+	display: inline-block;		
+}
+
+.explanation-section .row.problem-intro-row {
+	margin-bottom: 10px;
+}
+
+.explanation-section .row.program-summary {
+	margin-bottom: 60px
+}
+
+.problem-logo-container img {
+	display: inline-block	
+}
+
+.problem-logo-container {
+	padding: 20px 0px 20px 0;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.explanation-section .row {
+	margin-bottom: 25px;
+}
+
+.dtech-logo {
+	height: 70px;		
+}
+
+.olin-logo {
+	height: 70px;
+}
+
+.mobile-only .olin-logo {
+	margin-right: 40px;
+}
+
+.launch-camp-logo {
+	height: 100px;
+}
+
+/*.problem-text-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}*/
+
+.resource-top-header-span {
+	background: #5B9EAA;
+	color: white;
+	padding: 10px;
+}
+
+/*.resource-content {
+	border: 4px solid #5B9EAA;	
+	border-radius: 5px;
+}*/
+
+.resource-header-row {
+	/*margin-top: 40px;*/
+	margin-bottom: 40px;
+}
+
+.resource-header-span {
+	/*border: 2px solid #FF9185;*/
+	padding: 8px;
+	/*font-weight: bold;*/
+}
+
+.printer-img {
+	height: 90px;	
+}
+
+.laser-cutter-img {
+	height: 80px;
+}
+
+.computer-img {
+	height: 80px;
+}
+
+.plus {
+	font-size: 40px;
+	position: relative;
+	/*top: -50px;*/
+}
+
+.profile-img {
+	max-height: 90px;
+	max-width: 90px;
+	border-radius: 50%;
+	position: relative;
+	display: inline-block;  	
+}
+
+.results-header-row {
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+h4.instructor-name {
+	font-weight: bold;
+	margin-bottom: 2px;
+}
+
+.instructor-role {
+	font-size: 12px;
+}
+
+.img-line-1 { 
+	margin-bottom: 10px 
+}
+
+.skills-container .row-1 {
+	margin-bottom: 35px;	
+}
+
+.skills-container h4 {
+	margin-bottom: 0;
+}
+
+.skill-header, .skill-footer {	
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.skill-header {
+	font-weight: bold;	
+}
+
+.results-img {
+	height: 75px;
+	margin: 15px 0 0px 0;
+}
+
+.dont-quit-container {
+	/*background-color: #FFB7AF;*/			
+	margin-bottom: 40px;
+}
+
+.dont-quit-container h2 {
+	margin: 0 0 0 0;	
+}
+
+.dont-quit-span {
+	/*border: 2px solid #EA6759;*/
+	padding: 10px; 
+	display: inline-block;
+	color: black;
+}
+
+.team-logo-row {
+	margin-top: 30px;
+}
+
+.roti-logo {
+	height: 100px;
+}
+
+.cloud-logo {
+	height: 100px;
+}
+
+.shadow-logo {
+	height: 100px;
+}
+
+.long-term {	
+	margin-bottom: 20px;
+}
+
+.enroll-wrapper {
+	/*background: #A5D852;*/
+	padding: 20px 0 20px 0;	
+}
+
+.enroll-prompt {
+	margin-top: 0px;
+	margin-bottom: 0px;		
+}
+
+.enroll-prompt-span {
+	display: inline-block;
+	padding: 10px;
+	background: #C2EE7C;	
+}
+
+.enroll-wrapper h4 {
+	margin-top: 0px;	
+}
+
+.enroll-container .enroll {
+	margin-top: 0px;	
+	/*background-color: #E1E2E4;*/	
+	padding: 20px 0 20px 0;
+}
+
+
+.newsletter-container {
+	padding-bottom: 80px;
+}
+
+.newsletter-container h4 {
+	margin-top: 0px;		
+	margin-bottom: 0px
+}
+
+.newsletter-prompt-span {
+	display: inline-block;
+	padding: 10px;
+	background: #C1E4EA;	
+}
+
+h4.newsletter-thankyou {
+	color: #A82719;
+	margin-top: 10px;
+	display: none;
+}
+
+button.email-submit.btn-primary {
+	background: #5B9EAA;
+}
+
+/* to be used for img resizing */
+@media (max-device-width: 480px) { 
+	.intro-text {
+		padding: 40px 0 40px 0; 
+	}
+
+	.intro-line-1 {			
+		font-size: 70px;
+	}	
+
+	.intro-line-2{			
+		font-size: 90px;
+	}	
+
+	.intro-line-3 {			
+		font-size: 60px;
+	}	
+
+	.intro {
+		height: 600px;
+	}
+
+	.skills-image {
+		height: 200px;
+	}
+
+	.skill-header {
+		margin-top: 100px;
+	}	
+
+	.quote-wrapper {
+		margin-bottom: 80px;
+	}
+
+	.enroll-link {		
+		font-size: 80px;
+	}
+
+	.enroll .enroll-link {		
+		display: none;
+	}	
+
+	.email-entry input, .email-entry button {
+		font-size: 50px; 
+	}
+}

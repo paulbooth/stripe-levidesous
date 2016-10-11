@@ -1,0 +1,225 @@
+body {
+	font-family: Open Sans, Helvetica;				
+	position: relative;	
+}
+
+h4 {
+	font-size: 16px;	
+}
+
+h3 {
+	font-size: 20px;
+}
+
+h1, h2, h3, h4 {
+	line-height: 1.3em;
+}
+
+.divider {
+	border-top: 1px solid black;		
+	margin-top: 40px;
+	margin-bottom: 40px;	
+}
+
+.nav-links {		
+	padding: 20px 55px 0px 55px; 
+}
+
+.logo-container {
+	float: left;
+	position: relative;
+	margin: 20px 55px 0 55px;	
+}
+
+.logo-text {
+	font-weight: 900;
+	display: inline-block;
+	margin-top: 0px;
+}
+
+.logo-text-prefix {
+	position: relative;
+	left: 8px;
+	
+}
+
+.logo-text-postfix {
+	position: relative;
+	right: 8px;	
+}
+
+.logo {
+	position: relative;
+	bottom: 10px;
+	height: 60px;
+	margin: 0 10px 0 10px;	
+}
+
+.nav-links {
+	float: right;
+}
+
+.nav-link {
+	display: inline-block;
+	margin-left: 45px;
+}
+
+.nav-link a {
+	color: #5B9EAA;
+}
+
+.nav-link.active a {
+	color: black;
+}
+
+.nav-link.active:hover a {
+	text-decoration: none;
+	cursor: default;
+}
+
+.enroll-link {	
+	padding: 10px;
+	border-radius: 3px;
+	background: #5B9EAA;
+	color: white;				
+	display: inline-block;
+}
+
+.enroll-prompt-span .enroll-link {
+	margin-left: 10px;
+}
+
+.enroll-link:hover {
+	text-decoration: underline;
+	color: white;	
+}
+
+
+.enroll-link.nav-link {
+	border-radius: 5px;
+}
+
+.enroll-link.nav-link a {
+	color: white;
+}
+
+.nav-dropdown {
+	display: none;	
+}
+
+.footer {	
+	bottom: 0px;
+	position: absolute;
+	width: 100%;
+	padding: 0 10px 0 10px;
+}
+
+.connect-wrapper {
+	float: right;
+	margin: 0 0 0 0;
+	font-size: 40px;
+	display: none;
+}
+
+.contact-wrapper {
+	/*float: left;*/
+	text-align: center;	
+}
+
+.connect {
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.contact {
+	font-size: 16px;
+}
+
+.mobile-only {
+	display: none;
+}
+
+.quote {
+	font-style: italic;	
+	text-align: center;
+}
+
+@media (max-device-width : 768px)  { 
+	.mobile-only {
+		display: block
+	}
+
+	.screen-only {
+		display: none;
+	}	
+}
+
+@media (max-device-width: 480px) { 	
+	h1 {
+		font-size: 90px;
+	}
+
+	h2 {
+		font-size: 75px;
+	}
+
+	h3 {
+		font-size: 60px;
+	}
+
+	h4 {
+		font-size: 40px;
+	}
+
+	div {
+		font-size: 35px;
+	}	
+
+	.form-control {
+		font-size: 35px;
+		height: inherit;
+	}	
+
+	.btn {
+		font-size: 30px;
+	}
+
+	.nav-links {		
+		display: none;
+	}
+
+	.nav-dropdown {
+		display: block;
+		float:left;
+	}
+
+	.menu-button-icon {
+		font-size: 80px;
+	}
+
+	.logo-container {
+		float: right
+	}
+
+	.dropdown-menu {
+		font-size: 50px;
+	}
+
+	.connect-wrapper {
+		float: none;
+		display: none;
+		font-size: 90px
+	}
+
+	.contact {
+		font-size: 12px
+	}
+
+	.footer {
+		text-align: center;
+	}
+
+	.contact {
+		display: none;
+	}
+}

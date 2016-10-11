@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="165px" height="110.348px" viewBox="0 0 165 110.348" enable-background="new 0 0 165 110.348" xml:space="preserve">
+<g id="Layer_1_1_">
+	<path fill="#EA5744" stroke="#231F20" stroke-width="4" stroke-miterlimit="10" d="M20.541,68.391c0,0-6.731,4.367-11.397,10.234
+		C5.919,82.682,2.61,92.338,2.37,93.484c-0.541,2.588-0.328,10.601-0.328,10.601s6.97-10.271,8.551-12.383
+		c1.147-1.533,10.955-8.949,10.955-8.949"/>
+	<path fill="#EA5744" stroke="#231F20" stroke-width="4" stroke-miterlimit="10" d="M5.137,90.026"/>
+	<path fill="#EA5744" stroke="#231F20" stroke-width="4" stroke-miterlimit="10" d="M68.562,68.391c0,0,6.731,4.367,11.397,10.234
+		c3.227,4.057,6.534,13.713,6.773,14.858c0.541,2.588,0.328,10.601,0.328,10.601S80.09,93.814,78.51,91.701
+		c-1.148-1.533-10.955-8.949-10.955-8.949"/>
+	<path fill="#C4C8CC" stroke="#231F20" stroke-width="4" stroke-miterlimit="10" d="M44.724,6.334c0,0-24.184,26.609-24.184,59.438
+		c0,11.068,1.234,21.427,3.378,30.302h41.609c2.145-8.875,3.379-19.232,3.379-30.302C68.906,32.944,44.724,6.334,44.724,6.334z
+		 M44.723,66.645c-5.954,0-10.781-4.957-10.781-11.072c0-6.116,4.827-11.073,10.781-11.073s10.781,4.957,10.781,11.073
+		C55.504,61.688,50.677,66.645,44.723,66.645z"/>
+	<line fill="none" stroke="#231F20" stroke-width="4" stroke-miterlimit="10" x1="29.285" y1="30.181" x2="60.162" y2="30.181"/>
+	<line fill="none" stroke="#231F20" stroke-width="4" stroke-miterlimit="10" x1="21.83" y1="84.928" x2="67.617" y2="84.928"/>
+</g>
+<g id="person">
+	
+		<line fill="none" stroke="#231F20" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="110" y1="108.084" x2="126" y2="72.391"/>
+	
+		<line fill="none" stroke="#231F20" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="126" y1="72.391" x2="127.334" y2="27.026"/>
+	
+		<line fill="none" stroke="#231F20" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="126" y1="42.36" x2="110" y2="49.708"/>
+	
+		<line fill="none" stroke="#231F20" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="110" y1="49.708" x2="124.334" y2="63.027"/>
+	
+		<line fill="none" stroke="#231F20" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="129.334" y1="42.36" x2="148.334" y2="38.693"/>
+	
+		<line fill="none" stroke="#231F20" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="148.334" y1="38.693" x2="155.334" y2="29.36"/>
+	
+		<circle fill="none" stroke="#231F20" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" cx="126.501" cy="14.167" r="12.167"/>
+	
+		<line fill="none" stroke="#231F20" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="126" y1="72.391" x2="141.334" y2="108.084"/>
+</g>
+<g id="duct_tape">
+	
+		<circle fill="none" stroke="#A67C52" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" cx="159.333" cy="27.027" r="3.333"/>
+	<circle fill="none" stroke="#999999" stroke-width="2" stroke-miterlimit="10" cx="159.415" cy="26.945" r="4.417"/>
+	<line fill="none" stroke="#999999" stroke-linecap="round" stroke-miterlimit="10" x1="164.5" y1="27.36" x2="164.5" y2="36.36"/>
+</g>
+<g id="taped">
+	
+		<rect x="61.498" y="64.859" transform="matrix(0.8521 0.5234 -0.5234 0.8521 50.1088 -22.5781)" fill="#B3B3B3" stroke="#808080" stroke-linecap="round" stroke-miterlimit="10" width="7" height="24.999"/>
+	
+		<rect x="38.502" y="14.862" transform="matrix(-0.4062 0.9138 -0.9138 -0.4062 84.067 0.0956)" fill="#B3B3B3" stroke="#808080" stroke-linecap="round" stroke-miterlimit="10" width="7.001" height="25"/>
+</g>
+</svg>

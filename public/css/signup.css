@@ -1,0 +1,140 @@
+.header-span {
+	padding: 10px;
+	/*background: #D8F5A9;*/
+	background-color: #C2EE7C;
+	display: inline-block;
+	border-radius: 5px;
+}
+
+.enroll-now {
+	margin-top: 10px;
+	margin-bottom: 30px;
+}
+
+.enroll-now h3 {
+	margin-top: 0px;
+}
+
+.enroll-now h4 {
+	margin-bottom: 0px;
+}
+
+.enroll-now-span {
+	background: #FF9185;
+	padding: 10px;
+	border-radius: 5px;
+	display: inline-block;
+}
+
+.schedule-box {
+	border: 2px solid #90C5CF;	
+}
+
+.crunch-time-box {
+	border: 2px solid #FF9185;
+}
+
+.box-header {
+	font-size:23px;
+}
+
+.call-header, .email-entry, .or-header {
+	margin-top: 5px;
+}
+
+.questions-header {
+	margin-top: 0px;
+}
+
+.email-entry-header {
+	margin-bottom: 10px;
+}
+
+.email-header {
+	margin-bottom: 5px;
+}
+
+.ready-header {
+	margin-top: 0px;
+	margin-bottom: 20px;
+}
+
+.session-row {
+	margin-bottom: 10px;
+}
+
+.signup-container {
+	margin-top: 30px;
+}
+
+.overlay {	
+	background: rgba(144, 197, 207, .8);
+	color: black;
+	position: absolute;
+	height: 100%;
+	top: 0px;	
+	display: flex;
+	flex-direction: column;
+  	justify-content: center;
+  	padding: 30px;
+  	z-index: 0;
+  	opacity: 0;
+  	border-radius: 10px;
+}
+
+.overlay h4 {
+	font-weight: 700;
+}
+
+.application-form {
+	position: relative;
+	padding: 0 40px;
+	z-index: 100;
+}
+
+.error-text {
+	display: none;
+	color: darkred;
+}
+
+.curtain {
+	overflow: hidden;
+}
+
+
+.session-choice {
+	display: inline-block;
+	margin-bottom: 20px;
+	background: #90C5CF;
+	color: black;
+}
+
+label.error {
+	color: darkred;
+}
+
+.unenroll-text {
+	margin-top: 10px;	
+}
+
+.last-item {
+	padding-bottom: 80px;
+}
+
+.submit-application {
+	margin-bottom: 10px;
+	margin-top: 20px;
+}
+
+@media (max-device-width : 768px)  { 
+	.schedule-box {	
+		text-align:center;
+		margin-bottom: 30px;
+	}		
+}
+
+@media (max-device-width: 480px) { 
+	.box-header {
+		font-size: 45px
+	}	
+}

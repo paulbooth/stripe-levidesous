@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="705px" height="161.812px" viewBox="-8.216 0 705 161.812" enable-background="new -8.216 0 705 161.812"
+	 xml:space="preserve">
+<g id="Layer_7">
+</g>
+<g id="Layer_2">
+	
+		<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="-52.9888" y1="173.5889" x2="451.856" y2="173.5889" gradientTransform="matrix(1 0 0 -1 84 253.625)">
+		<stop  offset="0" style="stop-color:#FFFFFF"/>
+		<stop  offset="0.0057" style="stop-color:#FFFBF2"/>
+		<stop  offset="0.038" style="stop-color:#FFEEC3"/>
+		<stop  offset="0.0712" style="stop-color:#FFE59B"/>
+		<stop  offset="0.1047" style="stop-color:#FFDD7A"/>
+		<stop  offset="0.1385" style="stop-color:#FFD75A"/>
+		<stop  offset="0.1726" style="stop-color:#FFD23C"/>
+		<stop  offset="0.2074" style="stop-color:#FFCF23"/>
+		<stop  offset="0.243" style="stop-color:#FFCD0E"/>
+		<stop  offset="0.2809" style="stop-color:#FFCD05"/>
+		<stop  offset="0.6685" style="stop-color:#F3903F"/>
+		<stop  offset="0.8876" style="stop-color:#ED683C"/>
+		<stop  offset="1" style="stop-color:#E93E3A"/>
+	</linearGradient>
+	
+		<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="-53.4888" y1="173.5889" x2="452.356" y2="173.5889" gradientTransform="matrix(1 0 0 -1 84 253.625)">
+		<stop  offset="0" style="stop-color:#FFFFFF"/>
+		<stop  offset="0.0058" style="stop-color:#FFFBF2"/>
+		<stop  offset="0.038" style="stop-color:#FFEDC3"/>
+		<stop  offset="0.0712" style="stop-color:#FFE29A"/>
+		<stop  offset="0.1047" style="stop-color:#FFD979"/>
+		<stop  offset="0.1385" style="stop-color:#FFD259"/>
+		<stop  offset="0.1727" style="stop-color:#FECD3C"/>
+		<stop  offset="0.2074" style="stop-color:#FEC924"/>
+		<stop  offset="0.243" style="stop-color:#FEC713"/>
+		<stop  offset="0.2809" style="stop-color:#FDC70C"/>
+		<stop  offset="0.6685" style="stop-color:#F3903F"/>
+		<stop  offset="0.8876" style="stop-color:#ED683C"/>
+		<stop  offset="1" style="stop-color:#E93E3A"/>
+	</linearGradient>
+	<rect x="31.011" y="63.036" fill="url(#SVGID_1_)" stroke="url(#SVGID_2_)" stroke-miterlimit="10" width="504.845" height="34"/>
+</g>
+<g id="Layer_8">
+</g>
+<g id="Layer_1_1_" display="none">
+	<g display="inline">
+		<path d="M15.928,9.912v90.576h31.035v14.971H0V9.912H15.928z"/>
+		<path d="M108.213,48.877v7.725c-6.152-6.38-13.103-9.57-20.85-9.57c-8.979,0-16.452,3.327-22.422,9.98
+			c-1.551,1.728-2.895,3.571-4.043,5.523H82.72c2.274-1.077,4.775-1.626,7.514-1.626c5.605,0,10.162,1.982,13.672,5.947
+			c3.509,4.057,5.264,9.206,5.264,15.449c0,6.244-1.755,11.394-5.264,15.449c-3.51,3.92-8.112,5.879-13.809,5.879
+			c-5.332,0-9.753-2.027-13.262-6.084c-0.026-0.031-0.048-0.065-0.075-0.097H58.797c1.471,3.64,3.518,6.954,6.145,9.94
+			c6.016,6.654,13.626,9.98,22.832,9.98c7.291,0,14.104-2.962,20.439-8.887v6.973h15.449V48.877H108.213z"/>
+		<path d="M158.457,48.877V87.09c0,11.029,4.352,16.543,13.057,16.543c8.704,0,13.057-5.514,13.057-16.543V48.877h15.381v38.555
+			c0,5.332-0.661,9.936-1.982,13.809c-1.276,3.464-3.486,6.586-6.631,9.365c-5.195,4.512-11.804,6.768-19.824,6.768
+			c-7.976,0-14.561-2.256-19.756-6.768c-3.19-2.779-5.446-5.901-6.768-9.365c-1.276-3.099-1.914-7.701-1.914-13.809V48.877H158.457z
+			"/>
+		<path d="M219.365,48.877h15.449v6.152c5.377-5.332,11.438-7.998,18.184-7.998c7.747,0,13.785,2.438,18.115,7.313
+			c3.736,4.147,5.605,10.915,5.605,20.303v40.811H261.27V78.271c0-6.562-0.912-11.097-2.734-13.604
+			c-1.777-2.552-5.014-3.828-9.707-3.828c-5.104,0-8.728,1.687-10.869,5.059c-2.097,3.327-3.145,9.138-3.145,17.432v32.129h-15.449
+			L219.365,48.877L219.365,48.877z"/>
+		<path d="M347.95,51.748v20.439c-3.511-4.283-6.654-7.223-9.435-8.818c-2.733-1.641-5.947-2.461-9.64-2.461
+			c-5.787,0-10.596,2.028-14.423,6.084c-3.828,4.057-5.742,9.138-5.742,15.244c0,6.244,1.846,11.371,5.537,15.381
+			c3.736,4.011,8.5,6.016,14.287,6.016c3.691,0,6.949-0.797,9.775-2.393c2.734-1.549,5.947-4.557,9.639-9.023v20.303
+			c-6.244,3.235-12.486,4.854-18.73,4.854c-10.299,0-18.912-3.326-25.839-9.98c-6.928-6.699-10.391-15.016-10.391-24.951
+			s3.509-18.32,10.527-25.156s15.631-10.254,25.84-10.254C335.918,47.031,342.116,48.604,347.95,51.748z"/>
+		<path d="M366.475,0h15.381v54.414c5.469-4.922,11.507-7.383,18.115-7.383c7.52,0,13.535,2.438,18.047,7.313
+			c3.828,4.238,5.742,11.006,5.742,20.303v40.811h-15.381V76.084c0-5.332-0.947-9.194-2.838-11.587s-4.934-3.589-9.125-3.589
+			c-5.379,0-9.16,1.664-11.349,4.99c-2.144,3.373-3.213,9.16-3.213,17.363v32.197h-15.381L366.475,0L366.475,0z"/>
+	</g>
+	<rect x="-70.656" y="129.363" display="inline" fill="none" width="696.25" height="128.573"/>
+	<text transform="matrix(1 0 0 1 89.105 244.8193)" display="inline" font-family="'Futura-Medium'" font-size="140">Camp</text>
+</g>
+<g id="Layer_4">
+	<g id="Layer_5">
+		<path fill="#EB5744" stroke="#000000" stroke-width="4" stroke-miterlimit="10" d="M563.536,56.913c0,0-4.367-6.731-10.234-11.397
+			c-4.055-3.225-13.713-6.534-14.857-6.774c-2.588-0.541-10.6-0.328-10.6-0.328s10.27,6.97,12.383,8.551
+			c1.533,1.147,8.947,10.955,8.947,10.955"/>
+		<path fill="#EB5744" stroke="#000000" stroke-width="4" stroke-miterlimit="10" d="M541.903,41.509"/>
+		<path fill="#EB5744" stroke="#000000" stroke-width="4" stroke-miterlimit="10" d="M563.536,104.935
+			c0,0-4.367,6.731-10.234,11.397c-4.055,3.225-13.713,6.535-14.857,6.774c-2.588,0.541-10.6,0.328-10.6,0.328
+			s10.27-6.97,12.383-8.551c1.533-1.147,8.947-10.955,8.947-10.955"/>
+	</g>
+	<path fill="#C5C9CD" stroke="#000000" stroke-width="4" stroke-miterlimit="10" d="M535.856,101.899
+		c8.873,2.145,19.23,3.378,30.301,3.378c32.826,0.001,59.438-24.182,59.438-24.182s-26.609-24.183-59.438-24.183
+		c-11.07,0-21.428,1.234-30.301,3.378V101.899z"/>
+	<g id="Layer_6">
+		
+			<ellipse fill="#FFFFFF" stroke="#000000" stroke-width="4" stroke-miterlimit="10" cx="576.356" cy="81.095" rx="11.07" ry="10.781"/>
+	</g>
+	<line fill="none" stroke="#000000" stroke-width="4" stroke-miterlimit="10" x1="601.747" y1="65.657" x2="601.747" y2="96.534"/>
+	<line fill="none" stroke="#000000" stroke-width="4" stroke-miterlimit="10" x1="546.999" y1="58.202" x2="546.999" y2="103.989"/>
+</g>
+<g id="Layer_3">
+</g>
+</svg>

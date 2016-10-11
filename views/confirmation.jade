@@ -1,0 +1,115 @@
+extends layout
+
+block title 
+  title Confirm
+
+block css
+    link(rel='stylesheet', href='/css/confirmation.css')
+    link(rel='stylesheet', href='/font-awesome/css/font-awesome.min.css')
+    link(href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,700' rel='stylesheet' type='text/css')
+
+ block js
+    script.
+        var enrollmentData = !{JSON.stringify(data)}
+        enrollmentData["session-number"] = "#{sessionNumber}"
+
+    script.
+        !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+        n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+        n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+        t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+        document,'script','https://connect.facebook.net/en_US/fbevents.js');
+
+        fbq('init', '1012981728782387');
+        fbq('track', "PageView");  
+        fbq('track', 'InitiateCheckout');
+
+    script(src="/js/jquery-1.11.3.min.js" type="text/javascript")
+    script(src="/js/jquery.validate.min.js" type="text/javascript")
+    script(src="/js/jquery-payment.js" type="text/javascript")
+    script(src="https://js.stripe.com/v2/" type="text/javascript")
+    script(src="/js/payment.js" type="text/javascript")
+    script(type="text/javascript" src="http://www.googleadservices.com/pagead/conversion_async.js" charset="utf-8")
+
+block content            
+    .container.content-container
+        .row 
+            .confirmation-text.col-md-4.col-md-offset-4.text-center
+              h4 Please confirm the following information is correct before submitting payment. You can unenroll before June 1st 2016, for a full refund.
+
+              h4 You'll receive a welcome packet within 24 hours of enrolling. See you this summer!
+        .row
+            .col-md-5.col-md-offset-1.signup-info
+                each val, field in data 
+                    if val
+                        h4.name #{field}
+                        h4.value #{val}
+
+            .col-md-4.col-md-offset-1.payment-section                                            
+                .panel.panel-default.credit-card-box
+                  .panel-heading.display-table                    
+                    .row.payment-image-container.text-center
+                        .payment-image-wrapper
+                          img.payment-image(src="img/rocket.svg")
+                        h4.payment-header.text-center Launch Camp Enrollment
+                    if (discount) 
+                      .row
+                        .panel-title.display-td
+                          .charge-base &nbsp;&nbsp;$1,200.00
+                          .charge-discount - #{discount}                            
+                          .line-wrapper
+                            .line                                                    
+
+                    .row
+                      .display-td
+                        h3.charge-final #{price}
+                      .display-td                        
+                        img.card-imgs.img-responsive.pull-right(src='http://i76.imgup.net/accepted_c22e0.png')
+                  .panel-body                    
+                    form#payment-form(role='form', method='POST', action='javascript:void(0);')                        
+                      .fields                        
+                        .row
+                          .col-xs-12
+                            .form-group
+                              label(for='cardNumber') CARD NUMBER
+                              .input-group
+                                input.form-control(type='tel', name='cardNumber', placeholder='Valid Card Number', autocomplete='cc-number', required='', autofocus='')
+                                span.input-group-addon
+                                  i.fa.fa-credit-card
+                        .row
+                          .col-xs-7.col-md-7
+                            .form-group
+                              label(for='cardExpiry')
+                                span.hidden-xs EXPIRATION
+                                span.visible-xs-inline EXP
+                                |  DATE
+                              input.form-control(type='tel', name='cardExpiry', placeholder='MM / YY', autocomplete='cc-exp', required='')
+                          .col-xs-5.col-md-5.pull-right
+                            .form-group
+                              label(for='cardCVC') CV CODE
+                              input.form-control(type='tel', name='cardCVC', placeholder='CVC', autocomplete='cc-csc', required='')                      
+                      .row
+                        .col-xs-12
+                          button.subscribe.btn.btn-success.btn-lg.btn-block(type='button') Submit Payment and Enroll
+                      .row
+                        .col-xs-12.text-center
+                          a.stripe-logo-link(href="https://stripe.com/", target="_blank")
+                            img(src="img/stripe-logo.png")
+                      .row.payment-success
+                          .col-xs-12 Thank you for enrolling, you should receive a receipt from our payment manager, Stripe, in a few minutes. We'll be in touch soon with additional forms and releases. Email info@thelaunchcamp.com if you have any questions!                                                                    
+                      .row(style='display:none;')
+                        .col-xs-12
+                          p.payment-errors
+
+    .footer.clearfix
+      .contact-wrapper
+        h4.contact
+          | Launch Camp, San Francisco CA, 
+          a(href='mailto:info@thelaunchcamp.com') info@thelaunchcamp.com
+          | , 240-603-2654
+      .connect-wrapper
+        h1.connect
+          a(href='http://twitter.com/LaunchCampSF')
+            i.fa.fa-twitter-square
+          a(href='https://www.facebook.com/Launch-Camp-1155675964454166/info/?tab=page_info&view')
+            i.fa.fa-facebook-square

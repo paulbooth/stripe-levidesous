@@ -1,0 +1,81 @@
+.team-intro {
+	margin-bottom: 30px;
+}
+
+.team-intro-span {
+	background-color: #C2EE7C;
+	padding: 10px;
+	display: inline-block;
+	border-radius: 5px;
+}
+
+.section-label {
+	margin-top: 60px;
+	margin-bottom: 60px;
+}
+
+.section-label-span {
+	background: #90C5CF;
+	padding: 10px;
+	border-radius: 5px;
+	display: inline-block;
+}
+
+.bios-container {
+	margin-top: 30px;	
+	padding-bottom: 80px;	
+}
+
+
+.profile-img {
+	max-height: 130px;
+	max-width: 130px;
+	border-radius: 50%;
+	position: relative;
+	display: inline-block;  	
+}
+
+.bio-name {
+	color: #398290;
+	/*font-size: 22px;*/
+	margin-top: 0px;
+}
+
+.bio-row {
+	margin-bottom: 30px;
+}
+
+.bio-header {
+
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) { 
+	.bio-text, .bio-header {
+		text-align: center;
+	}
+}
+
+@media (max-device-width: 480px) { 
+	.bio-text, .bio-img {
+		text-align: center;
+	}
+
+	.bio-text {
+		margin-bottom: 40px;
+	}
+
+	.bio-text h3 {
+		display: none;
+	}
+
+	.bio-name {
+		font-size: 55px;
+	}
+
+	.profile-img {
+		max-height: 250px;
+		max-width: 245px;
+		margin-bottom: 30px;
+		margin-top: 10px;
+	}
+}

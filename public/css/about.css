@@ -1,0 +1,106 @@
+.intro-container {
+	margin-top: 30px;
+	/*margin-bottom: 30px;*/
+	/*background-color: #D8F5A9;	*/		
+}
+
+
+.intro-container h3 {
+	margin-bottom: 0;
+}
+
+.header-span {
+	padding: 10px;
+	background-color: #C2EE7C;
+	border-radius: 5px;
+	display: inline-block;
+}
+
+.header {
+	margin-bottom: 0px;
+	margin-top: 0px;
+}
+
+.header-row {
+	margin-bottom: 20px;
+}
+
+.video-row {
+	margin-bottom: 20px;	
+}
+
+.intro-container {
+	/*background-color: #90C5CF;*/
+}
+
+.explanation {
+	background: #90C5CF;
+}
+
+.section-label {
+	text-align: center;
+}
+
+/*.intro-text {
+	padding: 0 60px 0 60px;
+}*/
+
+.first-point {
+	margin-top: 0px;
+}
+
+.last-point {
+	margin-bottom: 0px;
+}
+
+.location-links {
+	margin-top: 10px;
+}
+
+.quote {
+	font-style: italic;	
+	text-align: center;
+}
+
+.dont-quit-container {
+	/*background-color: #FFB7AF;*/		
+	padding-bottom: 80px; 
+}
+
+.dont-quit-container h2 {
+	margin: 0 0 0 0;	
+}
+
+.dont-quit-span {
+	/*border: 2px solid #EA6759;*/
+	padding: 10px; 
+	display: inline-block;
+	color: black;
+}
+
+.team-logo-row {
+	margin-top: 30px;
+}
+
+.roti-logo {
+	height: 100px;
+}
+
+.cloud-logo {
+	height: 100px;
+}
+
+.shadow-logo {
+	height: 100px;
+}
+
+@media (max-device-width: 480px) { 	
+	.section-label {
+		text-decoration: underline;
+		text-align: center;
+	}	
+
+	.section-text {
+		text-align: center;
+	}
+}
